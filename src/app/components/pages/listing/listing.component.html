@@ -1,0 +1,414 @@
+<app-navbar-style-one></app-navbar-style-one>
+
+<div class="inner-banner inner-bg3">
+    <div class="container">
+        <div class="inner-banner-title text-center">
+            <h3>Listing</h3>
+            <p>News pariatur. Excepteur sint occaecat iat nulla pariatur excepteur.</p>
+        </div>
+        
+        <div class="banner-list">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-7">
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><i class='bx bx-chevron-right'></i></li>
+                        <li class="active">Listing</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-5">
+                    <p>Results for: <a routerLink="/">Listings</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="listing-widget-section pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="listing-section-right">
+                    <h3 class="title"> <i class="flaticon-filter"></i> Filters</h3>
+
+                    <div class="listing-right-form">
+                        <form>
+                            <div class="form-group">
+                                <i class='flaticon-filter'></i>
+                                <select class="form-control">
+                                    <option>All Listing Type</option>
+                                    <option>Restaurants</option>
+                                    <option>Events</option>
+                                    <option>Hotels</option>
+                                </select>	
+                            </div>
+                            <div class="form-group">
+                                <i class='flaticon-loupe'></i>
+                                <input type="text" class="form-control" placeholder="What Are Searching*">
+                            </div>
+                            <div class="form-group">
+                                <i class='flaticon-menu'></i>
+                                <input type="text" class="form-control" placeholder="All Cities">
+                            </div>
+                            <div class="form-group">
+                                <i class='flaticon-list'></i>
+                                <select class="form-control">
+                                    <option>All Category</option>
+                                    <option>Restaurants</option>
+                                    <option>Events</option>
+                                    <option>Hotels</option>
+                                </select>	
+                            </div>
+                            <div class="form-group">
+                                <i class="flaticon-calendar"></i>
+                                <input type="text" class="form-control" placeholder="Date & Time">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="facilities-list">
+                        <h3 class="facilities-title"> Facilities</h3>
+
+                        <ul>
+                            <li>
+                                <div class="agree-label">
+                                    <input type="checkbox" id="chb1">
+                                    <label for="chb1">Air Conditioned</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="agree-label">
+                                    <input type="checkbox" id="chb1">
+                                    <label for="chb1">Non-smoking</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="agree-label">
+                                    <input type="checkbox" id="chb1">
+                                    <label for="chb1">Elevator building</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="agree-label">
+                                    <input type="checkbox" id="chb1">
+                                    <label for="chb1">Free Parking</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="agree-label">
+                                    <input type="checkbox" id="chb1">
+                                    <label for="chb1">Pet Friendly</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="agree-label">
+                                    <input type="checkbox" id="chb1">
+                                    <label for="chb1">Free WiFi</label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <button type="submit" class="default-btn border-radius">Search Result <i class='bx bx-plus'></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="listing-widget-into">
+                    <div class="row">
+                        <div class="col-lg-9 col-sm-9">
+                            <div class="listing-right-form">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Sort by:</label>
+                                    </div>
+                                    <div class="col-lg-7 col-sm-8">
+                                        <div class="form-group">
+                                            <i class='flaticon-filter'></i>
+                                            <select class="form-control">
+                                                <option>All Listing Type</option>
+                                                <option>Restaurants</option>
+                                                <option>Events</option>
+                                                <option>Hotels</option>
+                                            </select>	
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-3">
+                            <ul class="listing-widget-menu">
+                                <li><a routerLink="/listing" class="active"><i class="flaticon-filter"></i></a></li>
+                                <li><a routerLink="/listing"><i class="flaticon-menu"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="place-list-item">
+                                <div class="images">
+                                    <a routerLink="/listing-details" class="images-list"><img src="assets/img/place-list/place-list1.jpg" alt="Images"></a>
+
+                                    <div class="place-profile">
+                                        <img src="assets/img/place-list/place-profile.png" alt="Images">
+                                        <h3>By, Alfred</h3>
+                                    </div>
+
+                                    <div class="place-status bg-dark-orange">
+                                        <a routerLink="/listing-details"><h3>Open Now</h3></a>
+                                    </div>
+
+                                    <div class="place-tag">
+                                        <ul>
+                                            <li><a routerLink="/listing"><i class="flaticon-place"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-like"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-workflow"></i></a></li>
+                                        </ul>
+                                        <span><a href="#">$$$</a></span>
+                                        <h3 class="title"><a routerLink="/listing-details">Restaurant</a></h3>
+                                    </div>
+                                </div>
+        
+                                <div class="content">
+                                    <a routerLink="/listing-details"><h3>The Billiard Restaurant</h3></a> 
+                                    <p><i class="flaticon-cursor"></i> Dorente rio, 104, 00184 Crono, Canada</p>
+                                    <ul class="place-rating">
+                                        <li><a routerLink="/listing">4.9</a></li>
+                                        <li>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>                
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="place-list-item">
+                                <div class="images">
+                                    <a routerLink="/listing-details" class="images-list"><img src="assets/img/place-list/place-list2.jpg" alt="Images"></a>
+                                    
+                                    <div class="place-profile">
+                                        <img src="assets/img/place-list/place-profile2.png" alt="Images">
+                                        <h3>By, Jaein</h3>
+                                    </div>
+
+                                    <div class="place-status bg-dark-orange">
+                                        <a routerLink="/listing-details"><h3>Closed Now</h3></a>
+                                    </div>
+
+                                    <div class="place-tag">
+                                        <ul>
+                                            <li><a routerLink="/listing"><i class="flaticon-place"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-like"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-workflow"></i></a></li>
+                                        </ul>
+                                        <span><a href="#">$$$</a></span>
+                                        <h3 class="title"> <a href="#">Beauty Shop</a></h3>
+                                    </div>
+                                </div>
+        
+                                <div class="content">
+                                    <a routerLink="/listing-details"><h3>The Beauty Shop</h3></a> 
+                                    <p><i class="flaticon-cursor"></i> Davisto Laterani, 104, 00184 Roma, Italy</p>
+                                    <ul class="place-rating">
+                                        <li><a routerLink="/listing">5.0</a></li>
+                                        <li>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="place-list-item">
+                                <div class="images">
+                                    <a routerLink="/listing-details" class="images-list"><img src="assets/img/place-list/place-list3.jpg" alt="Images"></a>
+                                    
+                                    <div class="place-profile">
+                                        <img src="assets/img/place-list/place-profile3.png" alt="Images">
+                                        <h3>By, Normand</h3>
+                                    </div>
+
+                                    <div class="place-status bg-color-blue">
+                                        <a routerLink="/listing-details"><h3>Open Now</h3></a> 
+                                    </div>
+
+                                    <div class="place-tag">
+                                        <ul>
+                                            <li><a routerLink="/listing"><i class="flaticon-place"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-like"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-workflow"></i></a></li>
+                                        </ul>
+                                        <span><a href="#">$$$</a></span>
+                                        <h3 class="title"><a href="#">Fitness Club</a></h3>
+                                    </div>
+                                </div>
+        
+                                <div class="content">
+                                    <a routerLink="/listing-details"><h3>Ridge Fitness Club</h3></a> 
+                                    <p><i class="flaticon-cursor"></i> Ke visto Onterio, 104, 6789 Rcona, usa</p>
+                                    <ul class="place-rating">
+                                        <li><a routerLink="/listing">4.5</a></li>
+                                        <li>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="place-list-item">
+                                <div class="images">
+                                    <a routerLink="/listing-details" class="images-list"><img src="assets/img/place-list/place-list4.jpg" alt="Images"></a>
+                                    
+                                    <div class="place-profile">
+                                        <img src="assets/img/place-list/place-profile4.png" alt="Images">
+                                        <h3>By, Olfred</h3>
+                                    </div>
+
+                                    <div class="place-status bg-color-blue">
+                                        <a routerLink="/listing-details"><h3>Open Now</h3></a>
+                                    </div>
+
+                                    <div class="place-tag">
+                                        <ul>
+                                            <li><a routerLink="/listing"><i class="flaticon-place"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-like"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-workflow"></i></a></li>
+                                        </ul>
+                                        <span><a href="#">$$$</a></span>
+                                        <h3 class="title"><a href="#">Restaurant</a></h3>
+                                    </div>
+                                </div>
+        
+                                <div class="content">
+                                    <a routerLink="/listing-details"><h3>The Hotel</h3></a> 
+                                    <p><i class="flaticon-cursor"></i> Ostapin, 134, 00184 Coventry, London</p>
+                                    <ul class="place-rating">
+                                        <li><a routerLink="/listing">4.7</a></li>
+                                        <li>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="place-list-item">
+                                <div class="images">
+                                    <a routerLink="/listing-details" class="images-list"><img src="assets/img/place-list/place-list5.jpg" alt="Images"></a>
+                                    
+                                    <div class="place-profile">
+                                        <img src="assets/img/place-list/place-profile2.png" alt="Images">
+                                        <h3>By, Olfred</h3>
+                                    </div>
+
+                                    <div class="place-status bg-color-blue">
+                                        <a routerLink="/listing-details"><h3>Open Now</h3></a>
+                                    </div>
+
+                                    <div class="place-tag">
+                                        <ul>
+                                            <li><a routerLink="/listing"><i class="flaticon-place"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-like"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-workflow"></i></a></li>
+                                        </ul>
+                                        <span><a href="#">$$$</a></span>
+                                        <h3 class="title"><a href="#">Bar</a></h3>
+                                    </div>
+                                </div>
+        
+                                <div class="content">
+                                    <a routerLink="/listing-details"><h3>Bar Shop</h3></a> 
+                                    <p><i class="flaticon-cursor"></i> Ostapin, 134, 00184 Coventry, London </p>
+                                    <ul class="place-rating">
+                                        <li><a routerLink="/listing">4.7</a></li>
+                                        <li>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="place-list-item">
+                                <div class="images">
+                                    <a routerLink="/listing-details" class="images-list"><img src="assets/img/place-list/place-list6.jpg" alt="Images"></a>
+                                    
+                                    <div class="place-profile">
+                                        <img src="assets/img/place-list/place-profile.png" alt="Images">
+                                        <h3>By, By, Jaein</h3>
+                                    </div>
+
+                                    <div class="place-status bg-color-blue">
+                                        <a routerLink="/listing-details"><h3>Open Now</h3></a>
+                                    </div>
+
+                                    <div class="place-tag">
+                                        <ul>
+                                            <li><a routerLink="/listing"><i class="flaticon-place"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-like"></i></a></li>
+                                            <li><a routerLink="/listing"><i class="flaticon-workflow"></i></a></li>
+                                        </ul>
+                                        <span><a href="#">$$$</a></span>
+                                        <h3 class="title"><a href="#">Shop</a></h3>
+                                    </div>
+                                </div>
+        
+                                <div class="content">
+                                    <a routerLink="/listing-details"><h3>The Shop</h3></a> 
+                                    <p><i class="flaticon-cursor"></i> Tilt Tilbury, 334, 00184 Coventry, London</p>
+                                    <ul class="place-rating">
+                                        <li><a routerLink="/listing">4.7</a></li>
+                                        <li>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star icon-color'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 text-center"> 
+                            <a routerLink="/listing" class="default-btn border-radius">Load More <i class='bx bx-plus'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer-style-two></app-footer-style-two>

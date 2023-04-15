@@ -25,7 +25,6 @@ export class AppComponent {
     ngOnInit() {
         this.recallJsFuntions();
     }
-
     recallJsFuntions() {
         this.router.events.subscribe((event) => {
             if (event instanceof NavigationStart) {

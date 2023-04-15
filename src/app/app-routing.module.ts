@@ -7,13 +7,12 @@ const routes: Routes = [
         path: "",
         component: ViewsComponent,
         children: [
-                {
-                  path: "",
-                  loadChildren: () =>
-                      import("./views/views.module").then((m) => m.ViewsModule),
-                  data: { },
-                 },
-                ]
+                     {
+                        path: "",
+                        loadChildren:() =>import("./views/views.module").then((m) => m.ViewsModule),
+                        data: {},
+                    },
+                  ]
     },
 ];
 @NgModule({

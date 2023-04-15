@@ -3,12 +3,12 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "app-home-one",
-    templateUrl: "./home-one.component.html",
-    styleUrls: ["./home-one.component.scss"],
+    templateUrl: "./home.component.html",
+    styleUrls: ["./home.component.scss"],
     standalone: true,
     imports: [CommonModule],
 })
-export class HomeOneComponent {
+export class HomeComponent {
     constructor() {}
     ngOnInit(): void {}
 }

@@ -10,6 +10,5 @@ import { Component } from "@angular/core";
 })
 export class HomeOneComponent {
     constructor() {}
-
     ngOnInit(): void {}
 }

@@ -10,6 +10,6 @@ import { SharedModule } from "./shared/shared.module";
     declarations: [
         ViewsComponent,
     ],
-    imports: [CommonModule, ViewsRoutingModule,SharedModule],
+    imports: [CommonModule , SharedModule, ViewsRoutingModule,],
 })
 export class ViewsModule {}

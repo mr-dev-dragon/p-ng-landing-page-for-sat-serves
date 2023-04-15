@@ -1,9 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-
-
-
 const routes: Routes = [
     { path: "",                 loadComponent:() => import( './components/pages/home-one/home-one.component').then((m) =>m .HomeOneComponent )  },
     { path: "about",            loadComponent:() => import( './components/pages/about/about.component').then((m) =>m .AboutComponent )  },
@@ -28,7 +24,6 @@ const routes: Routes = [
     { path: "contact",          loadComponent:() => import( './components/pages/contact/contact.component').then((m) =>m .ContactComponent )  },
     { path: "**",               loadComponent:() => import( './components/pages/error/error.component').then((m) =>m .ErrorComponent )  },
 ];
-
 @NgModule({
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule],

@@ -112,31 +112,9 @@
         }
     }
     .slider-area {
-        .owl-nav {
-            .owl-prev {
-                left: 0;
-                font-size: 20px !important;
-            }
-            .owl-next {
-                right: 0;
-                font-size: 20px !important;
-            }
-        }
+
     }
-    .banner-content {
-        padding-top: 130px;
-        padding-bottom: 70px;
-        h1 {
-            font-size: 42px;
-        }
-    }
-    .banner-content-ptb {
-        padding-top: 130px !important;
-        padding-bottom: 70px !important;
-    }
-    .banner-img {
-       display: none;
-    }
+
     /* Main Banner CSS End */
 
     /* Inner Banner CSS */
@@ -153,28 +131,7 @@
             }
         }
     }
-    .banner-rating {
-        float: left;
-        ul {
-            li {
-                &.rating-star {
-                    top: 5px;
-                    padding-left: 20px;
-                }
-                font-size: 10px;
-                span {
-                    font-size: 12px;
-                }
-                a {
-                    width: 50px;
-                    height: 36px;
-                    line-height: 36px;
-                    font-size: 12px;
-                    top: -3.5px;
-                }
-            }
-        }
-    }
+
     .banner-bottom {
         border :none;
     }
@@ -275,10 +232,7 @@
         }
     }
 
-    .choose-area-two {
-        position: relative;
-        top: 0;
-    }
+ 
     .pricing-area {
         padding-top: 50px;
     }
@@ -333,9 +287,7 @@
             }
         }
     }
-    .category-box-area {
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    }
+
     /* Category Area CSS End */
 
     /* Place List Area*/
@@ -349,40 +301,9 @@
             margin-bottom: 20px;
         }
     }
-    .place-list-two {
-        .section-title p {
-            max-width: 260px;
-        }
-        .owl-nav {
-            .owl-prev {
-                font-size: 20px !important;
-            }
-            .owl-next {
-                right: 0%;
-                font-size: 20px !important;
-            }
-        }
-    }
-    .place-slider-three {
-        left: 0;
-    }
-    .place-list-three {
-        .section-title {
-            p {
-                max-width: 260px;
-            }
-        }
-        .owl-nav {
-            .owl-prev {
-                right: 15%;
-                font-size: 20px !important;
-            }
-            .owl-next {
-                right: 6%;
-                font-size: 20px !important;
-            }
-        }
-    }
+
+
+
     .listing-section-right {
         .facilities-list {
             padding: 0 30px 10px;
@@ -444,20 +365,7 @@
         margin: 0px 20px;
     }
     .gallery-slider-area {
-        .owl-nav {
-            .owl-prev {
-                font-size: 20px !important;
-                width: 45px !important;
-                height: 35px !important;
-                line-height: 40px !important;
-            }
-            .owl-next {
-                font-size: 20px !important;
-                width: 45px !important;
-                height: 35px !important;
-                line-height: 40px !important;
-            }
-        }
+
     }
     .listing-map iframe {
         padding-left: 20px;
@@ -697,32 +605,8 @@
             position: relative;
         }
     }
-    .video-ptb {
-        padding-top: 70px !important;
-        padding-bottom: 70px !important;
-    }
-    .video-option {
-        padding-top: 70px;
-        padding-bottom: 70px ;
-        text-align: center;
-        .video-btn {
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            .play-video {
-                width: 60px;
-                height: 60px;
-                line-height: 60px;
-                font-size: 20px;
-            }
-            span {
-                font-size: 24px;
-                i {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
+
+
     /* Video Area End */
     
     /* Counter Area */
@@ -734,16 +618,8 @@
         padding-top: 50px;
         padding-bottom: 20px;
     }
-    .counter-area-three {
-        padding-top: 50px;
-        padding-bottom: 20px;
-        margin-top: 0;
-        background-color: #000000;
-    }
-    .counter-bg2 {
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
+
+
     .single-counter {
         margin-bottom: 30px;
         h3 {
@@ -824,102 +700,7 @@
     /* Application Area End */
 
     /* Blog Area */
-    .blog-article {
-        .article-comment-area {
-            .article-comment {
-                li {
-                    margin-right: 20px;
-                    &::before {
-                        display: none;
-                    }
-                   .content {
-                        h3 {
-                            font-size: 18px;
-                        }
-                    }
-                    .content-list {
-                        &::before {
-                            display: none;
-                        }
-                        h3 {
-                            font-size: 17px;
-                        }
-                    }
-                }
-            }
-        }
-        .article-content {
-            padding: 30px 20px;
-            h3 {
-                font-size: 24px;
-                margin-bottom: 15px;
-            }
-            .blockquote {
-                p {
-                    font-size: 17px;
-                    margin-top: 0px;
-                    margin-right: 0;
-                    margin-bottom: 0;
-                }
-            }
-        }
-        .blog-tag {
-            ul {
-                li {
-                    display: inline-block;
-                    padding: 5px 5px;
-                    -webkit-transition: 0.7s;
-                    transition: 0.7s;
-                    color: var(--titleColor);
-                }
-            }
-        }
-        .article-post {
-            padding: 30px 20px;
-            &::before {
-                display: none;
-            }
-            .article-post-share {
-                padding: 15px;
-            }
-        }
-        .comments-wrap {
-            padding-top: 30px;
-            ul {
-                li {
-                    padding-left: 30px;
-                    img {
-                        position: inherit;
-                        top: 0;
-                        left: 0;
-                        margin-bottom: 20px;
-                    }
-                    a {
-                        position: inherit;
-                        top: 0;
-                        right: 0;
-                        margin-top: 15px;
-                    }
-                    &.ml-30 {
-                        margin-left: 0;
-                    }
-                }
-            }
-        }
-        .comments-form {
-            .contact-form {
-                .agree-label {
-                    margin-bottom: 0;
-                    label {
-                        margin-left: 24px;
-                        font-size: 14px;
-                        position: relative;
-                        top: -27px;
-                    }
-                }
-            }
-        }
-    }
+
     /* Blog Area End */
 
     /* Testimonial Area */
@@ -933,28 +714,11 @@
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    .testimonial-area-two {
-        .owl-nav {
-            margin-bottom: 17px;
-            .owl-prev {
-                font-size: 20px !important;
-            }
-            .owl-next {
-                font-size: 20px !important;
-            }
-        }
-    }
+
     /* Testimonial Area End */
     .client-area {
         margin-bottom: 50px;
-        .owl-nav {
-            position: absolute;
-            bottom: -75px;
-            margin-top: 0;
-            margin-bottom: 15px;
-            left: 0;
-            right: 0;
-        }
+
     }
     .client-bg {
         position: relative;
@@ -1421,28 +1185,8 @@
 
 @media only screen and (min-width : 576px) and (max-width : 767px) { 
 
-    .place-list-two {
-        .owl-nav {
-            .owl-prev {
-                right: 3.5%;
-            }
-        }
-    }
-    .place-list-three {
-        .section-title {
-            p {
-                max-width: 100%;
-            }
-        }
-        .owl-nav {
-            .owl-prev {
-                right: 7.5%;
-            }
-            .owl-next {
-                right: 3.5%;
-            }
-        }
-    }
+
+
     .contact-map {
         iframe {
             height: 670px;
@@ -1601,34 +1345,9 @@
         }
     }
     .slider-area {
-        .owl-nav {
-            .owl-prev {
-                left: 0;
-                font-size: 20px !important;
-            }
-            .owl-next {
-                right: 0;
-                font-size: 20px !important;
-            }
-        }
+
     }
-    .banner-content {
-        padding-top: 130px;
-        padding-bottom: 70px;
-        h1 {
-            font-size: 42px;
-        }
-    }
-    .banner-content-ptb {
-        padding-top: 130px !important;
-        padding-bottom: 70px !important;
-    }
-    .banner-img {
-       left: 0;
-       img {
-           width: auto;
-       }
-    }
+
     /* Main Banner CSS End */
 
     /* Inner Banner CSS */
@@ -1663,10 +1382,7 @@
             font-size: 32px;
         }
     }
-    .banner-rating {
-        float: left;
-        margin-bottom: 35px;
-    }
+
     .banner-list {
         margin-bottom: 45px;
     }
@@ -1718,10 +1434,7 @@
             }
         }
     }
-    .choose-area-two {
-        position: relative;
-        top: 0;
-    }
+
     .pricing-area {
         padding-top: 50px;
     }
@@ -1763,16 +1476,8 @@
             padding: 30px 15px 20px 15px;
         }
     }
-    .place-list-two {
-        .owl-nav {
-            .owl-prev {
-                right: 8.5%;
-            }
-        }
-    }
-    .place-slider-three {
-        left: 0;
-    }
+
+
     .listing-widget-into {
         .default-btn {
             margin-top: 0;
@@ -1782,22 +1487,7 @@
 
     /* Place Listing Details Area */
     .gallery-slider-area {
-        .owl-nav {
-            .owl-prev {
-                top: 42%;
-                font-size: 20px !important;
-                width: 45px !important;
-                height: 35px !important;
-                line-height: 40px !important;
-            }
-            .owl-next {
-                top: 42%;
-                font-size: 20px !important;
-                width: 45px !important;
-                height: 35px !important;
-                line-height: 40px !important;
-            }
-        }
+
     }
     .listing-comment {
         margin-top: 0px;
@@ -1866,16 +1556,7 @@
             font-size: 30px;
         }
     }
-    .place-list-three {
-        .owl-nav {
-            .owl-prev {
-                right: 6%;
-            }
-            .owl-next {
-                right: 2%;
-            }
-        }
-    }
+
     /* Process Area End */
 
     /* City Area */
@@ -1917,31 +1598,8 @@
             position: relative;
         }
     }
-    .video-ptb {
-        padding-top: 70px !important;
-        padding-bottom: 70px !important;
-    }
-    .video-option {
-        padding-top: 45px;
-        text-align: center;
-        .video-btn {
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            .play-video {
-                width: 60px;
-                height: 60px;
-                line-height: 60px;
-                font-size: 20px;
-            }
-            span {
-                font-size: 24px;
-                i {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
+
+
     /* Video Area End */
 
     /* Counter Area */
@@ -1953,10 +1611,7 @@
         padding-top: 50px;
         padding-bottom: 20px;
     }
-    .counter-area-three {
-       padding-top: 40px;
-       padding-bottom: 10px;
-    }
+
     .single-counter {
         margin-bottom: 30px;
         h3 {
@@ -1990,37 +1645,13 @@
         }
     }
 
-    .blog-article {
-        .article-comment-area {
-            .article-comment {
-                li {
-                    margin-right: 90px;
-                    .content {
-                        h3 {
-                            font-size: 18px;
-                        }
-                        span {
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-        }
-    }
    
     .testimonial-area {
         padding-top: 50px;
     }
     .client-area {
         margin-bottom: 50px;
-        .owl-nav {
-            position: absolute;
-            bottom: -75px;
-            margin-top: 0;
-            margin-bottom: 15px;
-            left: 0;
-            right: 0;
-        }
+
     }
     .client-img {
         img {
@@ -2228,22 +1859,9 @@
             padding-left: 0 !important;
         }
     }
-    .place-slider-three {
-        left: calc((100% - 960px) /2);
-    }
-    .place-list-three {
-        .owl-nav {
-            .owl-prev {
-                right: 17.7%;
-            }
-        }
-    }
-    .place-list-three {
-        .section-title {
-            max-width: 960px;
-            margin-left: auto;
-        }
-    }
+
+
+
     .listing-section-right {
         .facilities-list {
             padding: 0 30px 15px;
@@ -2331,49 +1949,14 @@
         margin-top: 20px;
     }
     .client-area {
-        .owl-nav {
-            bottom: 25px;
-        }
+
     }
     .application-img-two {
         img {
             margin-left: 0;
         }
     }
-    .blog-article {
-        .article-post {
-            .article-post-share {
-                &.active {
-                    margin-left: 0;
-                }
-            }
-        }
-        .article-comment-area {
-            .article-comment {
-                li {
-                    display: inline-block;
-                    text-align: left;
-                    position: relative;
-                    margin-right: 80px;
-                    padding-top: 10px;
-                }
-            }
-        }
-        .comments-form {
-            .contact-form {
-                .agree-label {
-                    margin-bottom: 0;
-                    label {
-                        margin-left: 24px;
-                        font-size: 14px;
-                        position: relative;
-                        top: -27px;
-                    }
-                }
-            }
-        }
-    }
-   
+
     .footer-widget {
         .social-link {
             li {
@@ -2448,37 +2031,14 @@
             }
         }
     }
-    .place-list-three {
-        .section-title {
-            max-width: 1500px;
-            margin-left: auto;
-        }
-    }
+
     .testimonial-item {
         p {
             max-width: 490px;
         }
     }
-    .place-list-two {
-        .owl-nav {
-            .owl-next {
-                right: 18%;
-            }
-            .owl-prev {
-                right: 19.5%;
-            }
-        }
-    }
-    .place-list-three {
-        .owl-nav {
-            .owl-next {
-                right: 40% !important;
-            }
-            .owl-prev {
-                right: 42% !important;
-            }
-        }
-    }
+
+
 
 }
 

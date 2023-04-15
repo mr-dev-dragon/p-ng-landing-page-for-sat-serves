@@ -328,7 +328,7 @@
 	setInterval(function() { makeTimer(); }, 300);
 
     // Back To Top Js
-    $('body').append('<div id="toTop" class="top-btn"><i class="bx bx-chevrons-up"></i></div>');
+    // $('body').append('<div id="toTop" class="top-btn"><i class="bx bx-chevrons-up"></i></div>');
     $(window).on('scroll',function () {
         if ($(this).scrollTop() != 0) {
             $('#toTop').fadeIn();

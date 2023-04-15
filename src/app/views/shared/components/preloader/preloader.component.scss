@@ -1,0 +1,25 @@
+/*==================================
+Preloader CSS 
+=====================================*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: var(--mainColor);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: var(--whiteColor);
+  margin: 100px auto;
+  animation: rotate-in 1.2s infinite ease-in-out;
+}
+
+/*==================================
+Preloader CSS End
+=====================================*/

@@ -1,7 +1,12 @@
+
+
+
+
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
-    { path: "",                loadComponent:() => import('./components/pages/home/home.component')                 .then((m) =>m .HomeComponent)},
+    { path: "",                loadComponent:() => import('./components/pages/home/home.component')                         .then((m) =>m .HomeComponent)},
     { path: "about",           loadComponent:() => import('./components/pages/about/about.component')                       .then((m) =>m .AboutComponent)},
     { path: "team",            loadComponent:() => import('./components/pages/team/team.component')                         .then((m) =>m .TeamComponent)},
     { path: "pricing",         loadComponent:() => import('./components/pages/pricing/pricing.component')                   .then((m) =>m .PricingComponent)},

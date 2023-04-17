@@ -10,5 +10,8 @@ import { Component } from "@angular/core";
 })
 export class HomeComponent {
     constructor() {}
-    ngOnInit(): void {}
+    ngOnInit(): void { }
+    
+
+    var:string='div.npm'
 }

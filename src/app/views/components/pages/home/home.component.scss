@@ -45,19 +45,19 @@ Home Banner Area
 }
 
 .item-bg1 {
-  // background-image: url(assets/img/home-one/home1.jpg);
+  background-image: url(../../../../../assets/img/home-one/home-1.jpg);
 }
 
 .item-bg2 {
-  // background-image: url(assets/img/home-one/home2.jpg);
+  background-image: url(../../../../../assets/img/home-one/home-2.jpg);
 }
 
 .item-bg3 {
-  // background-image: url(assets/img/home-one/home3.jpg);
+  background-image: url(../../../../../assets/img/home-one/home-3.jpg);
 }
 
 .item-bg4 {
-  // background-image: url(assets/img/home-one/home4.jpg);
+  background-image: url(../../../../../assets/img/home-one/home-4.jpg);
 }
 
 
@@ -74,6 +74,12 @@ Home Banner Area End
 /*=================================
 Place List Area 
 ====================================*/
+
+.banner-form-mt{
+  margin-top: -9.4rem;
+   
+}
+
 .place-list-area {
   position: relative;
 

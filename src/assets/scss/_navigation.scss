@@ -1,0 +1,40 @@
+/*=================================
+Page-navigation Area Style
+====================================*/
+.pagination-area {
+  margin-bottom: 20px;
+
+  .page-numbers {
+    width: 38px;
+    height: 38px;
+    color: var(--titleColor);
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    line-height: 38px;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 20px;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--mainColor);
+    }
+
+    i {
+      position: relative;
+      font-size: 30px;
+      top: 5px;
+
+    }
+
+    &.current {
+      color: var(--mainColor);
+    }
+  }
+}
+
+/*=================================
+Page-navigation Area Style
+====================================*/

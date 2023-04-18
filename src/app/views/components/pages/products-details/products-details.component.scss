@@ -1,0 +1,401 @@
+/*==================================
+Shop Details 
+====================================*/
+.shop-detls-image {
+  margin-bottom: 30px;
+  border: 1px dashed #eeeeee;
+
+  &:hover {
+    border-color: var(--mainColor);
+  }
+}
+
+.shop-desc {
+  h3 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .price {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+
+    .old-price {
+      text-decoration: line-through;
+      color: var(--titleColor);
+      margin-left: 10px;
+    }
+  }
+
+  .shop-review {
+    margin-bottom: 15px;
+
+    .rating {
+      display: inline-block;
+      padding-right: 5px;
+      font-size: 14px;
+
+      i {
+        color: var(--mainColor);
+      }
+    }
+
+    .rating-count {
+      margin-left: 5px;
+      display: inline-block;
+      color: var(--titleColor);
+      border-bottom: 1px solid var(--titleColor);
+      line-height: initial;
+
+      &:hover {
+        color: var(--mainColor);
+        border-color: var(--mainColor);
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .input-count-area {
+    h3 {
+      font-size: 16px;
+      display: inline-block;
+      font-weight: 500;
+      margin-right: 15px;
+    }
+
+    .input-counter {
+      margin-top: 10px;
+      max-width: 130px;
+      min-width: 130px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      margin-bottom: 15px;
+
+      span {
+        position: absolute;
+        top: 0;
+        background-color: transparent;
+        cursor: pointer;
+        color: var(--mainColor);
+        width: 50px;
+        height: 100%;
+        line-height: 45px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+
+        &:hover {
+          color: var(--mainColor);
+        }
+      }
+
+      .minus-btn {
+        left: 0;
+      }
+
+      .plus-btn {
+        right: 0;
+      }
+
+      input {
+        height: 45px;
+        color: var(--titleColor);
+        outline: 0;
+        display: block;
+        border: none;
+        background-color: #f8f8f8;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .shop-add {
+    margin-top: 20px;
+
+    .default-btn {
+      border: none;
+      margin-right: 20px;
+    }
+  }
+
+  .shop-share {
+    margin-top: 30px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 3px;
+
+        span {
+          color: var(--paragraphColor);
+          margin-right: 5px;
+          font-size: 16px;
+        }
+
+        a {
+          width: 35px;
+          height: 35px;
+          background-color: var(--mainColor);
+          font-size: 16px;
+          color: var(--whiteColor);
+          line-height: 35px;
+          border-radius: 50px;
+          text-align: center;
+
+          &:hover {
+            background-color: var(--titleColor);
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.shop .input-count-area .input-counter input::-webkit-input-placeholder {
+  color: var(--titleColor);
+}
+
+.shop .input-count-area .input-counter input:-ms-input-placeholder {
+  color: var(--titleColor);
+}
+
+.shop .input-count-area .input-counter input::-ms-input-placeholder {
+  color: var(--titleColor);
+}
+
+.shop .input-count-area .input-counter input::placeholder {
+  color: var(--titleColor);
+}
+
+.tab {
+  .tabs_item {
+    display: none;
+
+    &:first-child {
+      display: block;
+    }
+  }
+}
+
+.shop-detls-tab {
+  margin-top: 30px;
+
+  .tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      line-height: initial;
+      margin-right: 5px;
+
+      a {
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+        color: var(--titleColor);
+        border: 1px dashed #eeeeee;
+        padding: 17px 30px 13px 30px;
+
+        &:focus {
+          color: var(--whiteColor);
+          background-color: var(--mainColor);
+          border-color: var(--mainColor);
+        }
+      }
+
+      &.active a {
+        color: var(--whiteColor);
+        background-color: var(--mainColor);
+        border-color: var(--mainColor);
+      }
+
+      &.current a {
+        color: var(--whiteColor);
+        background-color: var(--mainColor);
+        border-color: var(--mainColor);
+      }
+    }
+  }
+
+  .tab_content {
+    border: 1px dashed #eeeeee;
+    padding: 30px;
+
+    .tabs_item {
+      .shop-detls-tab-content {
+        p {
+          color: var(--titleColor);
+          margin-bottom: 20px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        .additional-information {
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style-type: none;
+          text-align: left;
+
+          li {
+            border: 1px solid #eeeeee;
+            border-bottom: none;
+            padding: 10px 15px 7px;
+            color: #737b9a;
+
+            &:last-child {
+              border-bottom: 1px solid #eeeeee;
+            }
+
+            span {
+              display: inline-block;
+              width: 40%;
+              color: #212529;
+              font-weight: 600;
+            }
+          }
+        }
+
+        h3 {
+          margin-bottom: 15px;
+          font-size: 24px;
+          color: var(--titleColor);
+        }
+
+        .shop-review-form {
+          .review-title {
+            position: relative;
+
+            .rating {
+              display: inline-block;
+
+              i {
+                color: var(--mainColor);
+                font-size: 14px;
+              }
+
+              p {
+                margin-bottom: 0;
+                display: inline-block;
+                padding-left: 5px;
+                line-height: initial;
+              }
+            }
+
+            .btn-right {
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              font-size: 14px;
+              color: var(--whiteColor);
+              background-color: var(--titleColor);
+              padding: 7px 15px;
+              border-radius: 5px;
+
+              &:hover {
+                background-color: var(--mainColor);
+                color: var(--whiteColor);
+              }
+            }
+          }
+
+          .review-comments {
+            margin-top: 35px;
+
+            .review-item {
+              margin-top: 30px;
+              position: relative;
+              padding-right: 200px;
+              border-top: 1px dashed #eeeeee;
+              padding-top: 30px;
+
+              .rating {
+                i {
+                  color: var(--mainColor);
+                  font-size: 14px;
+                }
+              }
+
+              h3 {
+                font-size: 24px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: var(--titleColor);
+              }
+
+              span {
+                margin-bottom: 10px;
+                font-size: 16px;
+                display: block;
+                font-weight: 500;
+
+                strong {
+                  font-weight: 600;
+                }
+              }
+
+              p {
+                margin-bottom: 0;
+              }
+
+              .review-report-link {
+                position: absolute;
+                right: 0;
+                color: #737b9a;
+                top: 40px;
+                text-decoration: underline;
+                font-weight: 600;
+                font-size: 15px;
+
+                &:hover {
+                  color: var(--mainColor);
+                }
+              }
+            }
+          }
+
+          .review-form {
+            margin-top: 30px;
+
+            h3 {
+              margin-bottom: 20px;
+            }
+
+            .contact-wrap-form {
+              box-shadow: none;
+              padding: 0;
+
+              .contact-form {
+                padding: 50px;
+                max-width: 100%;
+                margin: 0 auto 0;
+                background-color: #f4f4f4;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==================================
+Shop Details End
+====================================*/

@@ -1,0 +1,168 @@
+/*=================================
+Contact Area 
+====================================*/
+.contact-area {
+  padding-top: 84px;
+  padding-bottom: 70px;
+}
+
+.contact-card {
+  margin-bottom: 30px;
+  padding: 0 30px;
+  background-color: var(--whiteColor);
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    height: 180px;
+    width: 2px;
+    top: -5px;
+    background-color: #ededed;
+  }
+
+  i {
+    font-size: 60px;
+    color: var(--mainColor);
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: #727272;
+
+    a {
+      color: #727272;
+
+      &:hover {
+        color: var(--mainColor);
+      }
+    }
+  }
+}
+
+.contact-area {
+  .col-lg-4 {
+    &:nth-child(3) {
+      .contact-card {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.contact-map {
+  position: relative;
+}
+
+.contact-map iframe {
+  width: 100%;
+  border: none;
+  height: 820px;
+}
+
+.contact-wrap {
+  position: absolute;
+  top: 100px;
+  right: 5%;
+}
+
+.contact-form {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto 0;
+  background-color: var(--whiteColor);
+
+  span {
+    color: var(--mainColor);
+    line-height: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #234467;
+    font-weight: 400;
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+    position: relative;
+
+    i {
+      position: absolute;
+      top: 14px;
+      left: 15px;
+      line-height: 1;
+      font-size: 18px;
+      color: #7f7f7f;
+      z-index: 1;
+    }
+
+    .form-control {
+      height: 50px;
+      color: #7f7f7f;
+      border: 1px solid #e8e8e8;
+      background-color: #ffffff;
+      border-radius: 0;
+      font-size: 14px;
+      padding: 10px 20px 10px 40px;
+      width: 100%;
+
+      &:focus {
+        outline: none;
+        border-color: #ffc0a7;
+        box-shadow: none;
+      }
+    }
+
+    textarea.form-control {
+      height: auto;
+    }
+  }
+
+  .with-errors {
+    float: left;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #f00;
+    font-weight: 400;
+    display: block;
+  }
+
+  .text-danger {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .default-btn {
+    border: 0;
+    outline: none;
+  }
+}
+
+.contact-form .form-group .form-control::-webkit-input-placeholder {
+  color: #7f7f7f;
+}
+
+.contact-form .form-group .form-control:-ms-input-placeholder {
+  color: #7f7f7f;
+}
+
+.contact-form .form-group .form-control::-ms-input-placeholder {
+  color: #7f7f7f;
+}
+
+.contact-form .form-group .form-control::placeholder {
+  color: #7f7f7f;
+}
+
+/*=================================
+Contact Area End
+====================================*/

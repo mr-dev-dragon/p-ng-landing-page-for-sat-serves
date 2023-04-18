@@ -1,0 +1,158 @@
+
+
+/*=================================
+Testimonial Area 
+====================================*/
+.testimonial-area {
+  position: relative;
+  overflow: hidden;
+
+  .owl-dots {
+    margin-top: 0px !important;
+    margin-bottom: 30px;
+
+    .owl-dot {
+      span {
+        background-color: var(--mainColor) !important;
+        width: 5px !important;
+        height: 5px !important;
+        transition: 0.7s;
+      }
+
+      &.active span {
+        background-color: var(--mainColor) !important;
+        width: 10px !important;
+        height: 10px !important;
+      }
+
+      &:hover span {
+        background-color: var(--mainColor) !important;
+        width: 10px !important;
+        height: 10px !important;
+      }
+    }
+  }
+
+  .testimonial-slider {
+    .center {
+      .testimonial-item {
+        background-color: var(--whiteColor);
+        box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
+      }
+    }
+  }
+}
+
+
+.testimonial-area-three {
+  // background-image: url(assets/img/testimonial/testimonial-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .testimonial-item {
+    margin-top: 0 !important;
+  }
+}
+
+.testimonial-item-bg {
+  background-color: #f7f7f7;
+}
+
+.testimonial-item-bg2 {
+  background-color: var(--whiteColor);
+}
+
+.testimonial-item {
+  position: relative;
+  padding: 30px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+
+  h3 {
+    font: 18px;
+    margin-bottom: 5px;
+  }
+
+  span {
+    font-size: 14px;
+    color: var(--mainColor);
+  }
+
+  p {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .rating {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      color: var(--mainColor);
+    }
+  }
+
+  .testimonial-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    i {
+      font-size: 60px;
+      color: var(--optionalColor);
+      padding-right: 30px;
+      padding-top: 30px;
+    }
+  }
+}
+
+/*=================================
+Testimonial Area End
+====================================*/
+
+/*=================================
+Client Area 
+====================================*/
+.client-area {
+  position: relative;
+
+}
+
+.client-img {
+  position: relative;
+
+  img {
+    width: 520px !important;
+  }
+}
+
+.client-content {
+  margin-top: 50px;
+
+  h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  span {
+    color: var(--mainColor);
+    font-weight: 400;
+  }
+
+  p {
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 0;
+    max-width: 480px;
+  }
+}
+
+/*=================================
+Client Area End
+====================================*/

@@ -1,0 +1,210 @@
+/*================================== 
+Coming Soon Area 
+====================================*/
+.coming-soon-area {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  // background-image: url(assets/img/inner-banner/inner-banner6.jpg);
+  background-size: cover;
+  background-position: center center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.8;
+  }
+
+  .coming-soon-content {
+    text-align: center;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    border: 5px solid #aec5df;
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      margin-bottom: 0;
+      color: var(--titleColor);
+      font-size: 60px;
+      margin-top: -18px;
+    }
+
+    p {
+      font-size: 16px;
+      max-width: 600px;
+      margin-top: 15px;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #timer {
+      margin-top: 20px;
+
+      div {
+        display: inline-block;
+        color: var(--titleColor);
+        position: relative;
+        margin-left: 35px;
+        margin-right: 35px;
+        font-size: 45px;
+        font-weight: 700;
+
+        span {
+          display: block;
+          text-transform: capitalize;
+          margin-top: -15px;
+          font-size: 16px;
+          font-weight: normal;
+        }
+
+        &:last-child {
+          margin-right: 0;
+
+          &::before {
+            display: none;
+          }
+        }
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          right: -50px;
+          top: -10px;
+          font-size: 70px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .newsletter-form {
+      position: relative;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+
+      .input-newsletter {
+        display: block;
+        width: 100%;
+        height: 60px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding-left: 15px;
+        color: #ffffff;
+        outline: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        border-radius: 0;
+        border: 1px solid var(--optionalColor);
+        color: #5d5d5d;
+
+        &:focus {
+          border-color: var(--mainColor);
+        }
+      }
+
+      .default-btn {
+        border: 0;
+        outline: 0;
+      }
+
+      button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 60px;
+        padding: 0 30px;
+        text-transform: uppercase;
+        outline: 0;
+        color: #ffffff;
+        transition: 0.5s;
+        font-weight: 500;
+        font-size: 15px;
+        cursor: pointer;
+
+        &::after {
+          border-radius: 0;
+        }
+
+        &::before {
+          border-radius: 0;
+        }
+
+        &:hover {
+          color: #ffffff;
+          background-color: #190f3c;
+        }
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 30px;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+        font-size: 18px;
+        background-color: var(--mainColor);
+        color: var(--whiteColor);
+        border-radius: 50px;
+        margin-right: 10px;
+
+        a {
+          color: var(--whiteColor);
+        }
+
+        &:hover {
+          background-color: var(--titleColor);
+        }
+      }
+    }
+  }
+
+  #validator-newsletter {
+    text-align: left;
+    color: #dc3545 !important;
+  }
+}
+.single-content {
+  margin-bottom: 30px;
+
+  h3 {
+    font-size: 24px;
+    color: var(--titleColor);
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+/*================================== 
+Coming Soon Area End
+====================================*/

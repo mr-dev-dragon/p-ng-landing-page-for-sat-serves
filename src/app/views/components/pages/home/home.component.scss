@@ -1218,3 +1218,453 @@ Place Area
 /*=================================
 Place Area End
 ====================================*/
+/*=================================
+Banner Form Area 
+====================================*/
+.form-list {
+    margin-bottom: 50px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin: 0 10px;
+            color: var(--whiteColor);
+            text-transform: uppercase;
+            font-weight: 500;
+            i {
+                font-size: 18px;
+                color: #e9272a;
+                margin-right: 5px;
+                opacity: 0;
+                transform: var(--transition);
+            }
+            &:hover {
+                color: var(--mainColor);
+                i {
+                    opacity: 1;
+                }
+            }
+            &.active {
+                color: var(--mainColor);
+                i {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.banner-form {
+    background-color: var(--whiteColor);
+    padding: 15px 0 15px 40px;
+    box-shadow: 0 0 15px #2a2a2a;
+    .form-group {
+        position: relative;
+        margin-bottom: 0;
+        i {
+            position: absolute;
+            top: 15px;
+            left: 0;
+            line-height: 1;
+            font-size: 18px;
+            color: var(--mainColor);
+            z-index: 1;
+        }
+        .form-control {
+            height: 50px;
+            padding: 10px 20px 10px 25px;
+            border: none;
+            border-right: 1px solid #ebebeb;
+            color: var(--paragraphColor);
+            background-color: var(--whiteColor);
+            font-weight: 400;
+            border-radius: 0;
+            &:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+        textarea.form-control {
+            height: auto;
+        }
+    }
+    .nice-select {
+        height: 50px;
+        width: 100%;
+        line-height: 32px;
+        font-size: 15px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+        border-radius: 50px;
+        background-color: var(--mainColor);
+        color: var(--whiteColor);
+        .list {
+            background-color: var(--whiteColor);
+            box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.1);
+            border-radius: 0;
+            margin-top: 0;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .option {
+                -webkit-transition: .6s;
+                transition: .6s;
+                color: var(--paragraphColor);
+                padding-left: 20px;
+                padding-right: 20px;
+                &:hover {
+                    background-color: var(--mainColor) !important;
+                    color: #ffffff;
+                }
+                .selected {
+                    background-color: transparent;
+                    font-weight: 600;
+                }
+            }
+        }
+        &::after {
+            height: 8px;
+            width: 8px;
+            border-color: var(--paragraphColor);
+            right: 23px;
+        }
+    }
+}
+.banner-form-mt {
+    position: relative;
+    margin-top: -120px;
+    z-index: 55;
+}
+.banner-form .form-group .form-control::-webkit-input-placeholder {
+    color: var(--paragraphColor);
+}
+.banner-form .form-group .form-control:-ms-input-placeholder {
+    color: var(--paragraphColor);
+} 
+.banner-form .form-group .form-control::-ms-input-placeholder {
+    color: var(--paragraphColor);
+}
+.banner-form .form-group .form-control::placeholder {
+    color: var(--paragraphColor);
+}
+/*=================================
+Banner Form Area End
+====================================*/
+
+
+/*=================================
+Testimonial Area 
+====================================*/
+.testimonial-area {
+  position: relative;
+  overflow: hidden;
+
+  .owl-dots {
+    margin-top: 0px !important;
+    margin-bottom: 30px;
+
+    .owl-dot {
+      span {
+        background-color: var(--mainColor) !important;
+        width: 5px !important;
+        height: 5px !important;
+        transition: 0.7s;
+      }
+
+      &.active span {
+        background-color: var(--mainColor) !important;
+        width: 10px !important;
+        height: 10px !important;
+      }
+
+      &:hover span {
+        background-color: var(--mainColor) !important;
+        width: 10px !important;
+        height: 10px !important;
+      }
+    }
+  }
+
+  .testimonial-slider {
+    .center {
+      .testimonial-item {
+        background-color: var(--whiteColor);
+        box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
+      }
+    }
+  }
+}
+
+
+.testimonial-area-three {
+  // background-image: url(assets/img/testimonial/testimonial-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .testimonial-item {
+    margin-top: 0 !important;
+  }
+}
+
+.testimonial-item-bg {
+  background-color: #f7f7f7;
+}
+
+.testimonial-item-bg2 {
+  background-color: var(--whiteColor);
+}
+
+.testimonial-item {
+  position: relative;
+  padding: 30px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+
+  h3 {
+    font: 18px;
+    margin-bottom: 5px;
+  }
+
+  span {
+    font-size: 14px;
+    color: var(--mainColor);
+  }
+
+  p {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .rating {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      color: var(--mainColor);
+    }
+  }
+
+  .testimonial-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    i {
+      font-size: 60px;
+      color: var(--optionalColor);
+      padding-right: 30px;
+      padding-top: 30px;
+    }
+  }
+}
+
+/*=================================
+Testimonial Area End
+====================================*/
+
+
+
+
+/*=================================
+Application Area
+====================================*/
+.application-area {
+  background-color: #fef6f2;
+  position: relative;
+  margin-bottom: 150px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    // background-image: url(assets/img/shape/shape1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: flash 3s linear infinite;
+  }
+}
+
+.application-area-two {
+  background-color: #fef6f2;
+  overflow: hidden;
+}
+
+.application-img {
+  position: relative;
+  margin-bottom: -150px;
+}
+
+.application-content {
+  margin-left: 40px;
+
+  .section-title {
+    p {
+      max-width: 580px;
+      color: #737373;
+    }
+  }
+}
+
+.application-btn {
+  margin-top: 30px;
+
+  .application-play-btn {
+    display: inline-block;
+    width: 185px;
+    height: 60px;
+    list-style: 60px;
+    background-color: var(--titleColor);
+    padding: 0 15px;
+    border-radius: 7px;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: var(--transition);
+
+    &:hover {
+      background-color: var(--mainColor);
+    }
+
+    img {
+      width: 40px;
+      position: relative;
+      top: -5px;
+    }
+
+    .btn-content {
+      display: inline-block;
+      padding-top: 3px;
+
+      span {
+        font-size: 10px;
+        color: var(--whiteColor);
+      }
+
+      h3 {
+        font-size: 18px;
+        color: var(--whiteColor);
+        margin-bottom: 0;
+        font-weight: 400;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.application-img-two {
+  position: relative;
+  z-index: 1;
+
+  img {
+    margin-left: 75px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    width: 565px;
+    height: 565px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: var(--mainColor);
+    z-index: -1;
+  }
+}
+
+.application-area-two {
+  .application-content {
+    margin-left: 0 !important;
+  }
+}
+
+/*=================================
+Application Area End
+====================================*/
+
+
+/*=================================
+Video Area 
+====================================*/
+.video-area-bg {
+  // background-image: url(assets/img/video-area-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+}
+
+.video-content {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: center;
+  position: relative;
+
+  h2 {
+    font-size: 38px;
+    color: var(--whiteColor);
+  }
+
+  .play-btn {
+    margin-top: 50px;
+    width: 85px;
+    height: 85px;
+    line-height: 90px;
+    border-radius: 50px;
+    font-size: 35px;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+    position: relative;
+
+    &:hover {
+      background-color: var(--whiteColor);
+      color: var(--mainColor);
+    }
+
+    &:hover::before {
+      border-color: var(--whiteColor);
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 50%;
+      border: 1px solid var(--mainColor);
+      animation: ripple 1s linear 2s infinite;
+    }
+  }
+}
+
+
+/*=================================
+Video Area End
+====================================*/

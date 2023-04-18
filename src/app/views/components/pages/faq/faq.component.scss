@@ -1,0 +1,42 @@
+/*=================================
+Faq Area Style
+====================================*/
+.faq-area {
+  background-color: #f5f5f5;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+
+  h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: var(--titleColor);
+    font-weight: 500;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.faq-section {
+  .contact-card {
+    background-color: none !important;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.faq-contact {
+  .contact-form {
+    background-color: #f5f5f5 !important;
+    margin-bottom: 30px;
+  }
+}
+
+/*=================================
+Faq Area Style End
+====================================*/

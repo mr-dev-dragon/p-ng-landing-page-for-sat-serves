@@ -1,0 +1,92 @@
+/*=================================
+Product Area 
+====================================*/
+.product-card {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px dashed #eeeeee;
+  margin-bottom: 30px;
+
+  .product-content {
+    padding: 30px 20px;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1;
+      margin-bottom: 15px;
+
+      li {
+        display: inline-block;
+        color: var(--mainColor);
+        padding: 0 5px;
+
+        del {
+          color: var(--titleColor);
+        }
+      }
+    }
+
+    .rating {
+      list-style: none;
+      margin: 0 0 15px 0;
+      padding: 0;
+      float: right;
+
+      li {
+        color: var(--mainColor);
+        font-size: 14px;
+        display: inline-block;
+      }
+    }
+
+    a {
+      display: block;
+
+      h3 {
+        text-transform: capitalize;
+        margin-bottom: 0;
+        transition: all 0.5s;
+
+        &:hover {
+          color: var(--mainColor);
+        }
+      }
+    }
+
+    .default-btn {
+      &.product-btn {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 180px;
+        bottom: 200px;
+        padding: 10px 20px;
+        transform: scale(0);
+
+        i {
+          font-size: 20px;
+          position: relative;
+          top: 3px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    background-color: var(--whiteColor);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+    .default-btn {
+      &.product-btn {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+/*=================================
+Product Area End
+====================================*/

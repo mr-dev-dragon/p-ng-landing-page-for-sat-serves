@@ -522,3 +522,243 @@ Place List Area
 /*=================================
 Place List Area End
 ====================================*/
+
+
+
+/*=================================
+Client Area 
+====================================*/
+.client-area {
+  position: relative;
+
+}
+
+.client-img {
+  position: relative;
+
+  img {
+    width: 520px !important;
+  }
+}
+
+.client-content {
+  margin-top: 50px;
+
+  h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  span {
+    color: var(--mainColor);
+    font-weight: 400;
+  }
+
+  p {
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 0;
+    max-width: 480px;
+  }
+}
+
+/*=================================
+Client Area End
+====================================*/
+/*=================================
+Application Area
+====================================*/
+.application-area {
+  background-color: #fef6f2;
+  position: relative;
+  margin-bottom: 150px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    // background-image: url(assets/img/shape/shape1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: flash 3s linear infinite;
+  }
+}
+
+.application-area-two {
+  background-color: #fef6f2;
+  overflow: hidden;
+}
+
+.application-img {
+  position: relative;
+  margin-bottom: -150px;
+}
+
+.application-content {
+  margin-left: 40px;
+
+  .section-title {
+    p {
+      max-width: 580px;
+      color: #737373;
+    }
+  }
+}
+
+.application-btn {
+  margin-top: 30px;
+
+  .application-play-btn {
+    display: inline-block;
+    width: 185px;
+    height: 60px;
+    list-style: 60px;
+    background-color: var(--titleColor);
+    padding: 0 15px;
+    border-radius: 7px;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: var(--transition);
+
+    &:hover {
+      background-color: var(--mainColor);
+    }
+
+    img {
+      width: 40px;
+      position: relative;
+      top: -5px;
+    }
+
+    .btn-content {
+      display: inline-block;
+      padding-top: 3px;
+
+      span {
+        font-size: 10px;
+        color: var(--whiteColor);
+      }
+
+      h3 {
+        font-size: 18px;
+        color: var(--whiteColor);
+        margin-bottom: 0;
+        font-weight: 400;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.application-img-two {
+  position: relative;
+  z-index: 1;
+
+  img {
+    margin-left: 75px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    width: 565px;
+    height: 565px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: var(--mainColor);
+    z-index: -1;
+  }
+}
+
+.application-area-two {
+  .application-content {
+    margin-left: 0 !important;
+  }
+}
+
+/*=================================
+Application Area End
+====================================*/
+
+
+/*=================================
+Video Area 
+====================================*/
+.video-area-bg {
+  // background-image: url(assets/img/video-area-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+}
+
+.video-content {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: center;
+  position: relative;
+
+  h2 {
+    font-size: 38px;
+    color: var(--whiteColor);
+  }
+
+  .play-btn {
+    margin-top: 50px;
+    width: 85px;
+    height: 85px;
+    line-height: 90px;
+    border-radius: 50px;
+    font-size: 35px;
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+    position: relative;
+
+    &:hover {
+      background-color: var(--whiteColor);
+      color: var(--mainColor);
+    }
+
+    &:hover::before {
+      border-color: var(--whiteColor);
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 50%;
+      border: 1px solid var(--mainColor);
+      animation: ripple 1s linear 2s infinite;
+    }
+  }
+}
+
+
+/*=================================
+Video Area End
+====================================*/

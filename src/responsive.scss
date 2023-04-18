@@ -44,126 +44,11 @@
 
    
    
-    /* Main Banner CSS */
-    .slider-item {
-        .slider-content {
-            padding-top: 130px;
-            padding-bottom: 180px;
-            h1 {
-                font-size: 34px;
-            }
-        }
-    }
-    .slider-area {
 
-    }
 
-    /* Main Banner CSS End */
 
-    /* Inner Banner CSS */
-    .inner-banner-text {
-        padding-bottom: 20px;
-        h3 {
-            font-size: 28px;
-        }
-        ul {
-            li {
-                font-size: 15px;
-                margin-right: 10px;
-                margin-bottom: 5px;
-            }
-        }
-    }
 
-    .banner-bottom {
-        border :none;
-    }
-    .banner-tag {
-        ul {
-            li {
-                margin-right: 10px;
-            }
-        }
-    }
-    .banner-profile {
-        float: left;
-        margin-top: 30px;
-    }
-    .banner-list {
-        margin-bottom: 45px;
-        .list {
-            margin-bottom: 15px;
-        }
-        .social-link {
-            float: none;
-        }
-        p {
-            float: none;
-        }
-    }
-    .inner-banner {
-        .inner-title {
-            padding-top: 140px;
-            padding-bottom: 90px;
-            h3 {
-                font-size: 26px;
-            }
-            ul {
-                li {
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-    .inner-content {
-        padding-top: 150px;
-    }
-    .inner-banner {
-        .inner-banner-title {
-            padding-top: 145px;
-            padding-bottom: 50px;
-            h3 {
-                font-size: 30px;
-            }
-        }
-    }
-    /* Inner Banner CSS End */
 
-    /* Banner Form CSS */
-    .form-list {
-       margin-bottom: 30px;
-        ul {
-            li {
-                margin: 0px 3px;
-                i {
-                    font-size: 16px;
-                    margin-right: 0;
-                }
-            }
-        }
-    }
-    .banner-form {
-        padding: 20px 15px 30px 15px;
-        &.border-radius {
-            border-radius: 0 !important;
-        }
-        .form-group {
-            margin-bottom: 15px;
-            i {
-                left: 15px;
-            }
-            .form-control {
-                border-right: none;
-                border-bottom: 1px solid #eeeeee;
-                padding: 10px 20px 10px 45px;
-            }
-        }
-        .default-btn {
-            margin-top: 20px;
-            width: 100%;
-        }
-    }
-    /* Banner Form CSS End */
 
     .about-list {
         margin-top: 20px;
@@ -198,7 +83,9 @@
             }
         }
     }
+        // @media only screen and (max-width : 767px) {
     /* Category Area CSS */
+    
     .category-bg {
         margin-top: 30px;
         padding: 30px 15px 0 15px;
@@ -1135,6 +1022,8 @@
             height: 670px;
         }
     }
+
+
     .listing-widget-into {
         .listing-widget-menu {
             margin-left: 0;
@@ -1148,48 +1037,11 @@
             }
         }
     }
-     /* User Area */
-     .user-section {
-        .user-all-form {
-            .contact-form {
-                padding: 35px 15px !important;
-                .forget {
-                    margin-top: 30px;
-                    float: right;
-                }
-                .social-option {
-                    margin-top: 30px;
-                    &::before {
-                        width: 36%;
-                    }
-                    &::after {
-                        width: 36%;
-                    }
-                }
-                .social-option {
-                    ul {
-                        li {
-                            a {
-                                width: 120px;
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .user-content {
-            h2 {
-                font-size: 27px;
-            }
-        }
-        .tabs {
-            li {
-                padding: 13px 50px 13px 50px;
-            }
-        }
-    }
-    /* User Area End */
+
+
+
+
+
 }
 
 @media only screen and (min-width : 768px) and (max-width : 991px) { 
@@ -1236,49 +1088,7 @@
     }
     /* Default CSS End */
 
-    /* Navbar CSS */
-    .mobile-nav {
-        .logo {
-            img {
-                max-width: 110px;
-                height: 40px;
-                margin-top: -5px;
-            }
-        }
-    }
-    .d-in-line {
-        display: none;
-    }
-    .side-nav-responsive {
-        display: block;
-    }
-    .search-overlay {
-        .search-form {
-            form {
-                .input-search {
-                    height: 50px;
-                    padding: 0 0 0 15px;
-                }
-            }
-        }
-    }
-    .search-overlay {
-        .search-form {
-            form {
-                button {
-                    position: absolute;
-                    right: 5px;
-                    top: 5px;
-                    width: 40px;
-                    height: 40px;
-                    font-size: 18px;
-                    line-height: 35px;
-                }
-            }
-        }
-    }
-    /* Navbar CSS End */
-
+    
     /* Main Banner CSS */
     .slider-item {
         .slider-content {

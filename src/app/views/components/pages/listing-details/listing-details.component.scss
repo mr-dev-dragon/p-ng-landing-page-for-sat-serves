@@ -788,3 +788,93 @@ Listing Details Area
 /*=================================
 Listing Details Area End
 ====================================*/
+
+
+
+        /* Main Banner CSS End */
+        @media only screen and (max-width : 767px) {
+    
+          /* Inner Banner CSS */
+          .inner-banner-text {
+            padding-bottom: 20px;
+    
+            h3 {
+              font-size: 28px;
+            }
+    
+            ul {
+              li {
+                font-size: 15px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+              }
+            }
+          }
+    
+          .banner-bottom {
+            border: none;
+          }
+    
+          .banner-tag {
+            ul {
+              li {
+                margin-right: 10px;
+              }
+            }
+          }
+    
+          .banner-profile {
+            float: left;
+            margin-top: 30px;
+          }
+    
+          .banner-list {
+            margin-bottom: 45px;
+    
+            .list {
+              margin-bottom: 15px;
+            }
+    
+            .social-link {
+              float: none;
+            }
+    
+            p {
+              float: none;
+            }
+          }
+    
+          .inner-banner {
+            .inner-title {
+              padding-top: 140px;
+              padding-bottom: 90px;
+    
+              h3 {
+                font-size: 26px;
+              }
+    
+              ul {
+                li {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+    
+          .inner-content {
+            padding-top: 150px;
+          }
+    
+          .inner-banner {
+            .inner-banner-title {
+              padding-top: 145px;
+              padding-bottom: 50px;
+    
+              h3 {
+                font-size: 30px;
+              }
+            }
+          }
+    
+          /* Inner Banner CSS End */
+        }

@@ -77,7 +77,6 @@ Place List Area
 
 .banner-form-mt{
   margin-top: -9.4rem;
-   
 }
 
 .place-list-area {
@@ -1664,7 +1663,67 @@ Video Area
   }
 }
 
-
+                     @media only screen and (max-width : 767px) {
+                       .slider-item {
+                         .slider-content {
+                           padding-top: 130px;
+                           padding-bottom: 180px;
+          
+                           h1 {
+                             font-size: 34px;
+                           }
+                         }
+                       }
+                     }
 /*=================================
 Video Area End
 ====================================*/
+
+
+
+@media only screen and (max-width : 767px) {
+/* Banner Form CSS */
+.form-list {
+  margin-bottom: 30px;
+
+  ul {
+    li {
+      margin: 0px 3px;
+
+      i {
+        font-size: 16px;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.banner-form {
+  padding: 20px 15px 30px 15px;
+
+  &.border-radius {
+    border-radius: 0 !important;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    i {
+      left: 15px;
+    }
+
+    .form-control {
+      border-right: none;
+      border-bottom: 1px solid #eeeeee;
+      padding: 10px 20px 10px 45px;
+    }
+  }
+
+  .default-btn {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+/* Banner Form CSS End */
+}

@@ -188,3 +188,59 @@ User Area
 /*=================================
 User Area End
 ====================================*/
+
+
+
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+  /* User Area */
+  .user-section {
+    .user-all-form {
+      .contact-form {
+        padding: 35px 15px !important;
+
+        .forget {
+          margin-top: 30px;
+          float: right;
+        }
+        .social-option {
+          margin-top: 30px;
+
+          &::before {
+            width: 36%;
+          }
+
+          &::after {
+            width: 36%;
+          }
+        }
+
+        .social-option {
+          ul {
+            li {
+              a {
+                width: 120px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .user-content {
+      h2 {
+        font-size: 27px;
+      }
+    }
+
+    .tabs {
+      li {
+        padding: 13px 50px 13px 50px;
+      }
+    }
+  }
+
+  /* User Area End */
+}

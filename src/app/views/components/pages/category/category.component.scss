@@ -111,3 +111,63 @@ Category Area
 /*=================================
 Category Area End
 ====================================*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 767px) {
+  // /* Category Area CSS */
+
+  .category-bg {
+    margin-top: 30px;
+    padding: 30px 15px 0 15px;
+    margin-bottom: 20px;
+  }
+
+  .category-card {
+    margin-bottom: 0;
+
+    a {
+      i {
+        font-size: 40px;
+      }
+    }
+
+    a {
+      h3 {
+        font-size: 18px;
+      }
+    }
+
+    p {
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .category-box {
+    a {
+      i {
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+          /* Category Area End */
+        .category-bg {
+          margin-top: 30px;
+          padding: 30px 15px 0 15px;
+        }
+        /* Category Area End */
+      }
+    

@@ -1,0 +1,65 @@
+@media only screen and (max-width : 767px) {
+
+  /* Place List Area*/
+  .place-list-item {
+    .content {
+      padding: 25px 15px 15px 15px;
+    }
+  }
+
+  .place-list-area {
+    .owl-dots {
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+  .listing-section-right {
+    .facilities-list {
+      padding: 0 30px 10px;
+
+      ul {
+        li {
+          display: block;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .listing-widget-into {
+    .listing-widget-menu {
+      margin-left: 20px;
+      margin-bottom: 30px;
+      float: none;
+    }
+
+    .default-btn {
+      margin-top: 0;
+    }
+  }
+
+  /* Place List Area End */
+}
+
+@media only screen and (min-width : 1550px) {
+
+
+
+  .place-list-item {
+    .images {
+      .place-profile {
+        left: 35px;
+      }
+
+      .place-tag {
+        left: 35px;
+      }
+    }
+  }
+
+
+
+
+}

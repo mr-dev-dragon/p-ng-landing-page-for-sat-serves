@@ -762,3 +762,118 @@ Video Area
 /*=================================
 Video Area End
 ====================================*/
+
+
+@media only screen and (max-width : 767px) {
+                /* Application Area */
+                .application-area {
+                  margin-bottom: 0;
+                  padding-bottom: 45px;
+                }
+        
+                .application-img {
+                  margin-bottom: 0;
+                }
+        
+                .application-content {
+                  margin-left: 0;
+                }
+        
+                .application-area-two {
+                  padding-top: 50px;
+                }
+        
+                .application-img-two {
+                  text-align: center;
+                  margin-top: 30px;
+        
+                  &::before {
+                    display: none;
+                  }
+        
+                  img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                  }
+                }
+        
+                .application-btn {
+                  .application-play-btn {
+                    width: 170px;
+                    height: 55px;
+                    padding: 0 7px;
+                    margin-right: 10px;
+        
+                    img {
+                      width: 35px;
+                      top: -7px;
+                    }
+        
+                    .btn-content {
+                      padding-top: 5px;
+        
+                      h3 {
+                        font-size: 16px;
+                      }
+                    }
+                  }
+                }
+              }
+
+            @media only screen and (min-width : 768px) and (max-width : 991px) {
+              .place-btn {
+                float: right;
+                margin-bottom: 0;
+              }
+
+              .application-area {
+                margin-bottom: 0;
+                padding-bottom: 50px;
+              }
+
+              .application-img {
+                margin-bottom: 0;
+                text-align: center;
+              }
+
+              .application-area-two {
+                padding-top: 50px;
+              }
+
+              .application-img-two {
+                margin-top: 30px;
+                text-align: center;
+
+                img {
+                  margin-left: auto;
+                  margin-right: auto;
+                  text-align: center;
+                }
+              }}
+
+
+
+
+                            @media only screen and (min-width : 768px) and (max-width : 991px) {
+                            /* Place List Area */
+                            .place-list-area {
+                              .owl-dots {
+                                margin-bottom: 20px;
+                              }
+                            }
+              
+                            .place-list-item {
+                              .content {
+                                padding: 30px 15px 20px 15px;
+                              }
+                            }
+              
+              
+                            .listing-widget-into {
+                              .default-btn {
+                                margin-top: 0;
+                              }
+                            }
+                          }
+                            /* Place List Area End */

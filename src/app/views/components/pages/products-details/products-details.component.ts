@@ -11,5 +11,5 @@ import { Component } from "@angular/core";
 export class ProductsDetailsComponent  {
     constructor() {}
 
-    ngOnInit(): void {}
+    ngOnInit(): void { }
 }

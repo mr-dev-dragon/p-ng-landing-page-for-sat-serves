@@ -39,6 +39,7 @@ button {
     margin: 0;
     padding: 0;
     outline: 0;
+    border-radius: .5rem;
     &:focus {
         outline: 0 ;
         border: 0;
@@ -506,9 +507,7 @@ Inner Banner
 .inner-bg6 {
     // background-image: url(assets/img/inner-banner/inner-banner6.jpg);
 }
-.inner-bg7 {
-    // background-image: url(assets/img/inner-banner/inner-banner7.jpg);
-}
+
 .inner-bg8 {
     // background-image: url(assets/img/inner-banner/inner-banner8.jpg);
 }

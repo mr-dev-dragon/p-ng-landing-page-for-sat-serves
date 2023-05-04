@@ -9,7 +9,7 @@ import { Component} from "@angular/core";
     imports: [CommonModule],
 })
 export class CategoryComponent {
-    constructor() {}
 
+    constructor() {}
     ngOnInit(): void {}
 }

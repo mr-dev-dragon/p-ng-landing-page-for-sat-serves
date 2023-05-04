@@ -1,17 +1,23 @@
 /*=================================
 Pricing Area 
 ====================================*/
+.inner-bg {
+  // background-image: url('../../../../../assets/img/inner-banner/the_most_beautiful_road_in_the_world_2-wallpaper-1920x540.jpg');
+  background-image: url('../../../../../assets/img/inner-banner/wp10918891.jpg');
+}
 .price-card {
+
   margin-bottom: 30px;
   text-align: center;
-  background-color: var(--whiteColor);
+  background-color:#e9e9e9;
   box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
   padding-bottom: 20px;
+ border-radius: 1rem;
 
   .content {
     padding: 20px 20px 10px 20px;
     background-color: var(--mainColor);
-    border-radius: 0 0 30px 30px;
+    border-radius: 1rem 1rem 0rem 0rem;
     margin-bottom: 20px;
 
     i {

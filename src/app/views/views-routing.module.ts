@@ -6,6 +6,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
+    
     { path: "",                loadComponent:() => import('./components/pages/home/home.component')                         .then((m) =>m .HomeComponent)},
     { path: "about",           loadComponent:() => import('./components/pages/about/about.component')                       .then((m) =>m .AboutComponent)},
     { path: "team",            loadComponent:() => import('./components/pages/team/team.component')                         .then((m) =>m .TeamComponent)},
@@ -27,7 +28,10 @@ const routes: Routes = [
     { path: "blog",            loadComponent:() => import('./components/pages/blog/blog.component')                         .then((m) =>m .BlogComponent)},
     { path: "blog-details",    loadComponent:() => import('./components/pages/blog-details/blog-details.component')         .then((m) =>m .BlogDetailsComponent)},
     { path: "contact",         loadComponent:() => import('./components/pages/contact/contact.component')                   .then((m) =>m .ContactComponent)},
-    { path: "**",              loadComponent:() => import('./components/pages/error/error.component')                       .then((m) =>m .ErrorComponent)},
+    { path: "**",
+       loadComponent:() =>
+         import('./components/pages/error/error.component').then((m) =>m .ErrorComponent)
+    },
 ];
 @NgModule({
     imports: [RouterModule.forChild(routes)],

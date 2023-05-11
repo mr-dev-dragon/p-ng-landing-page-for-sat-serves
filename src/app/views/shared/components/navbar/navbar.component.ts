@@ -1,5 +1,6 @@
 
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -10,9 +11,22 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-  constructor() { }
+    constructor(private router: Router, private route: ActivatedRoute) { }
+
 
   ngOnInit(): void {
   }
+
+
+url:string='/'
+
+ async routerLink(goto: string) {
+          this.url=goto
+          this.router.navigate([`/${goto}`]);
+
+}
+
+
+
 
 }

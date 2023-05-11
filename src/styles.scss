@@ -106,7 +106,7 @@ img {
     margin: 0 auto;
 }
 /*================================
-Default Btn Style 
+Default Btn Style
 ===================================*/
 
 .default-btn {
@@ -135,7 +135,7 @@ Default Btn Style
         z-index: -1;
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
-      }      
+      }
     &::after {
         content: "";
         position: absolute;
@@ -157,7 +157,7 @@ Default Btn Style
         right: 0;
         width: 50%;
      }
-      
+
     &:hover::after {
         left: 0;
         right: 0;
@@ -166,11 +166,11 @@ Default Btn Style
 }
 /*================================
 Default Btn Style End
-===================================*/ 
+===================================*/
 
 
 /*================================
-Section Title Style 
+Section Title Style
 ===================================*/
 
 .section-title {
@@ -252,7 +252,7 @@ Inner Banner
                 margin-right: 5px;
                 text-transform: capitalize;
                 &:last-child {
-                    margin-right: 0; 
+                    margin-right: 0;
                 }
                 i {
                     font-size: 26px;
@@ -382,7 +382,7 @@ Inner Banner
                 font-weight: 500;
                 margin-bottom: 0;
             }
-        } 
+        }
     }
 }
 .banner-list {
@@ -405,7 +405,7 @@ Inner Banner
             margin-right: 5px;
             text-transform: capitalize;
             &:last-child {
-                margin-right: 0; 
+                margin-right: 0;
             }
             i {
                 font-size: 20px;
@@ -525,7 +525,7 @@ Inner Banner End
 ====================================*/
 
 /*==================================
-Back To Top Button 
+Back To Top Button
 =====================================*/
 // #toTop {
 // 	position: fixed;
@@ -534,7 +534,7 @@ Back To Top Button
 // 	cursor: pointer;
 //     display: none;
 //     z-index: 99;
-// } 
+// }
 // .top-btn {
 //     background-color: var(--mainColor);
 //     color: var(--whiteColor);
@@ -554,11 +554,11 @@ Back To Top Button
 //     }
 // }
 /*==============================
-Back To Top Button 
+Back To Top Button
 =================================*/
 
 /*==============================
-Animation  CSS 
+Animation  CSS
 =================================*/
 @-webkit-keyframes ripple {
     0% {
@@ -607,7 +607,7 @@ Animation  CSS
               transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
-  
+
 @keyframes rotate-in {
     0% {
         -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
@@ -631,7 +631,7 @@ Animation  CSS End
 .banner-form {
     .form-group {
 
-  
+
         .form-control {
             height: 50px;
             padding: 10px 20px 10px 25px;
@@ -639,7 +639,7 @@ Animation  CSS End
             border-right: 1px solid #ebebeb;
             color: var(--paragraphColor);
             background-color: var(--whiteColor);
-      
+
 
 
         }
@@ -647,17 +647,17 @@ Animation  CSS End
     }
 
     .nice-select {
-     
+
         width: 100%;
         line-height: 32px;
-           
+
 
 
 
         &::after {
             height: 8px;
             width: 8px;
-      
+
         }
     }
 }
@@ -666,7 +666,7 @@ Animation  CSS End
 
 .inner-bg {
     // background-image: url('../../../../../assets/img/inner-banner/the_most_beautiful_road_in_the_world_2-wallpaper-1920x540.jpg');
-    background-image: url('../../../../../assets/img/inner-banner/wp10918891.jpg');
+    background-image: url('assets/img/inner-banner/wp10918891.jpg');
 }
 
 

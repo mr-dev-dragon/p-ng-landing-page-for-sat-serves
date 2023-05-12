@@ -1,6 +1,50 @@
 /*=================================
-Listing Details Area 
+Listing Details Area
 ====================================*/
+.kiki{
+    width: 4.6875rem;
+    height: 100px;
+}
+.uiui{
+     width: 8.75rem;
+     height: 8.75rem;
+}
+.topoftop{
+    margin-top: -100px;
+}
+.inner-banner-text{
+    gap: 1.875rem;
+}
+.title_list{
+    list-style: none;
+    font-size: 1.2rem;
+     color: #dadada;
+     a{
+        color: #ffffff;
+        margin-left: 0.4375rem;
+     }
+}
+.title{
+    font-size: 3.125rem;
+    color: #ffffff;
+}
+.rotofilyo{
+    width:  300px;
+    height: 300px;
+    border-radius: 5%;
+ border: #ffffff 3px solid;
+
+
+
+}
+.icon_config{
+    width:  3.125rem;
+    height: 3.125rem;
+    margin: 1.25rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3125rem;
+    border-radius: 50%;
+}
 .imim{
   border-radius: 50%;
   height: 35px;
@@ -10,7 +54,7 @@ Listing Details Area
   color: #ffffff;
 }
 .bxs-star{
- 
+
 
   color: #ffffff;
 }
@@ -806,15 +850,15 @@ Listing Details Area End
 
         /* Main Banner CSS End */
         @media only screen and (max-width : 767px) {
-    
+
           /* Inner Banner CSS */
           .inner-banner-text {
             padding-bottom: 20px;
-    
+
             h3 {
               font-size: 28px;
             }
-    
+
             ul {
               li {
                 font-size: 15px;
@@ -823,11 +867,11 @@ Listing Details Area End
               }
             }
           }
-    
+
           .banner-bottom {
             border: none;
           }
-    
+
           .banner-tag {
             ul {
               li {
@@ -835,37 +879,37 @@ Listing Details Area End
               }
             }
           }
-    
+
           .banner-profile {
             float: left;
             margin-top: 30px;
           }
-    
+
           .banner-list {
             margin-bottom: 45px;
-    
+
             .list {
               margin-bottom: 15px;
             }
-    
+
             .social-link {
               float: none;
             }
-    
+
             p {
               float: none;
             }
           }
-    
+
           .inner-banner {
             .inner-title {
               padding-top: 140px;
               padding-bottom: 90px;
-    
+
               h3 {
                 font-size: 26px;
               }
-    
+
               ul {
                 li {
                   font-size: 16px;
@@ -873,21 +917,21 @@ Listing Details Area End
               }
             }
           }
-    
+
           .inner-content {
             padding-top: 150px;
           }
-    
+
           .inner-banner {
             .inner-banner-title {
               padding-top: 145px;
               padding-bottom: 50px;
-    
+
               h3 {
                 font-size: 30px;
               }
             }
           }
-    
+
           /* Inner Banner CSS End */
         }

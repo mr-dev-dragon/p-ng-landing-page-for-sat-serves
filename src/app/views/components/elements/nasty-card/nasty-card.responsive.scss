@@ -1,0 +1,40 @@
+@media only screen and (max-width : 767px){
+    /* Place Area */
+    .place-area {
+        .section-title {
+            text-align: center;
+        }
+    }
+    .place-btn {
+        float: none;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .place-card {
+        .rating {
+            left: 15px;
+        }
+        .status-tag {
+            padding: 7px 12px 7px 25px;
+        }
+        .content {
+            padding: 35px 15px 20px 15px;
+        }
+    }
+    /* Place Area End */
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

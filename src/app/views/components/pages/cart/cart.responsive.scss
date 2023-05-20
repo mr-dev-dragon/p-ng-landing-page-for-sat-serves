@@ -1,0 +1,99 @@
+@media only screen and (max-width : 767px){
+    /* Cart Wraps Area */
+    .cart-wraps-area {
+        .cart-table {
+            text-align: center;
+            table  {
+                thead {
+                    tr {
+                        th {
+                            padding: 0 40px 10px;
+                            white-space: nowrap;
+                            font-size: 16px;
+                            &:first-child {
+                                text-align: left;
+                                padding-left: 0;
+                            }
+                        }
+                        td {
+                            white-space: nowrap;
+                            &:first-child {
+                                text-align: left;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cart-buttons {
+            text-align: center;
+            .text-end {
+                text-align: center !important;
+                margin-top: 0;
+            }
+            .default-btn1 {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+
+        }
+        .cart-totals {
+            padding: 20px;
+            margin-top: 35px;
+            h3 {
+                margin-bottom: 18px;
+                font-size: 20px;
+            }
+            ul {
+                li {
+                    font-size: 14px;
+                }
+            }
+            .default-btn {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .cart-wraps {
+            .continue-shopping-box {
+                margin-bottom: 20px;
+            }
+        }
+        .cart-calc {
+            padding: 20px !important;
+            margin-top: 30px;
+            .cart-wraps-form {
+                h3 {
+                    font-size: 18px;
+                }
+                .form-group {
+                    select {
+                        width: 100%;
+                    }
+                }
+                .default-btn {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    /* Cart Wraps Area End */
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width : 767px){
+
+    .pricing-area {
+        padding-top: 50px;
+    }
+    .price-card {
+        .content {
+            i {
+                font-size: 40px;
+                width: 75px;
+                height: 75px;
+                line-height: 80px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            h2 {
+                font-size: 38px;
+                sup {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

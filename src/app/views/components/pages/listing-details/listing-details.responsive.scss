@@ -1,0 +1,150 @@
+@media only screen and (max-width : 767px){
+    .listing-category {
+        ul {
+            li {
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                a {
+                    padding: 5px 15px;
+                }
+            }
+        }
+    }
+
+
+
+
+    /* Place List Details Area */
+    .listing-widget {
+        .title {
+            font-size: 18px;
+        }
+    }
+
+    .listing-widget {
+        &.listing-widget-desc {
+            p {
+                margin-bottom: 20px;
+                padding: 0 20px;
+            }
+            .default-btn {
+                margin-left: 20px;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .listing-features {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 10px;
+        margin: 0px 20px;
+    }
+    .gallery-slider-area {
+
+    }
+    .listing-map iframe {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .listing-comment {
+        ul {
+            li {
+                padding: 0;
+                padding-left: 0;
+                border-bottom: none;
+                margin-bottom: 30px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                img {
+                    border-radius: 50%;
+                    position: inherit;
+                    top: 0;
+                    left: 0;
+                    margin-bottom: 20px;
+                }
+                .content {
+                    padding: 20px;
+                    .comment-rating {
+                        right: auto;
+                        left: 110px;
+                    }
+                    .view-list {
+                        bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .listing-widget-side {
+        .title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .listing-contact-review {
+        float: none;
+    }
+
+    .listing-Booking-form {
+        padding: 0 20px;
+        .form-input-counter {
+            right: -35px;
+        }
+    }
+    .listing-widget-list {
+        li {
+            margin: 7px 15px;
+        }
+    }
+    .side-host-list {
+        text-align: center;
+        li {
+            span {
+                color: var(--mainColor);
+                top: 0px;
+                right: 0;
+                position: relative;
+                font-size: 15px;
+            }
+        }
+    }
+    .listing-widget-post {
+        list-style: none;
+        margin: 0 15px;
+        padding: 0;
+        li {
+            .content {
+                h4 {
+                    font-size: 16px;
+                }
+                p {
+                    max-width: 160px;
+                }
+            }
+        }
+    }
+    /* Place List Details Area End */
+}
+
+
+
+
+
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

@@ -1,0 +1,37 @@
+
+
+
+/*=================================
+Counter Area
+====================================*/
+.counter-area {
+    position: relative;
+    margin-top: -70px;
+  }
+
+  .counter-bg {
+    background-color: var(--whiteColor);
+    box-shadow: 0 0 15px rgba(102, 102, 102, 0.3);
+    padding: 40px 0;
+  }
+
+  .single-counter {
+    text-align: center;
+    position: relative;
+
+    h3 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+
+    span {
+      color: var(--paragraphColor);
+      margin-bottom: 0;
+      font-weight: 500;
+    }
+  }
+
+  /*=================================
+  Counter Area End
+  ====================================*/

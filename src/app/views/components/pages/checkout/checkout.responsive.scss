@@ -1,0 +1,58 @@
+@media only screen and (max-width : 767px){
+    /* Checkout Area */
+    .checkout-area {
+        .checkout-user {
+            margin-bottom: 30px;
+            padding: 20px 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    .billing-details {
+        padding: 30px;
+        h3 {
+            font-size: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+    }
+    .order-details {
+        .order-table {
+            padding:30px 15px;
+            h3 {
+                font-size: 20px;
+            }
+            table {
+                thead {
+                    tr {
+                        th {
+                           padding: 15px 10px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .payment-box {
+            padding: 30px;
+        }
+    }
+    /* Checkout Area End */
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

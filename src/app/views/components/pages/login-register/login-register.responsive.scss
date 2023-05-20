@@ -1,0 +1,61 @@
+@media only screen and (max-width : 767px){
+    /* User Area */
+    .user-section {
+        .user-all-form {
+            .contact-form {
+                padding: 35px 15px !important;
+                .forget {
+                    margin-top: 10px;
+                    float: left;
+                }
+                .social-option {
+                    margin-top: 30px;
+                    &::before {
+                        width: 27%;
+                    }
+                    &::after {
+                        width: 27%;
+                    }
+                }
+                .social-option {
+                    ul {
+                        li {
+                            a {
+                                width: 84px;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .user-content {
+            margin-bottom: 30px;
+            margin-top: 40px;
+            h2 {
+                font-size: 24px;
+            }
+        }
+        .tabs {
+            li {
+                padding: 13px 30px 13px 30px;
+            }
+        }
+    }
+    /* User Area End */
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

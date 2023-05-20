@@ -1,0 +1,83 @@
+@media only screen and (max-width : 767px){
+    /* Shop Details Area */
+    .shop-desc h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .shop-detls-tab {
+        .tabs {
+            li {
+                a {
+                    padding: 12px 10px;
+                }
+            }
+        }
+        .tab_content {
+            padding: 20px;
+            .tabs_item {
+                .shop-detls-tab-content  {
+                    h3 {
+                        margin-bottom: 10px;
+                        font-size: 20px;
+                    }
+                    p {
+                        margin-bottom: 15px;
+                    }
+                    .shop-review-form {
+                        .review-title {
+                            .btn-right {
+                                position: inherit;
+                            }
+                        }
+                        .review-form {
+                            .contact-wrap-form {
+                                .contact-form {
+                                    padding: 30px 15px;
+                                }
+                            }
+                        }
+                        .review-comments {
+                            .review-item {
+                                padding-right: 0;
+                                h3 {
+                                    font-size: 20px;
+                                }
+                                .review-report-link {
+                                    position: inherit;
+                                    top: 5px;
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .shop-desc {
+        .shop-add  {
+            .default-btn {
+                border: none;
+                margin: 7px;
+            }
+        }
+    }
+
+    /* Shop Details Area End */
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

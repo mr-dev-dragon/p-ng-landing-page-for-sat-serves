@@ -1,0 +1,44 @@
+@media only screen and (max-width : 767px){
+    /* Error Area */
+    .error-area {
+        .error-content {
+            max-width: 90%;
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px 15px;
+            img {
+                margin-bottom: 50px;
+                max-width: 110px;
+            }
+            h1 {
+                font-size: 100px;
+            }
+            h3 {
+                margin: 40px 0 0;
+                font-size: 22px;
+            }
+            p {
+                font-size: 15px;
+                margin-top: 10px;
+                padding: 0 15px;
+            }
+        }
+    }
+    /* Error Area End */
+}
+@media only screen and (min-width : 576px) and (max-width : 767px){
+
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 1550px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}

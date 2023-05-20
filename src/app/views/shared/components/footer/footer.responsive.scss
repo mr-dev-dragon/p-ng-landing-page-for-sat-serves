@@ -1,0 +1,114 @@
+
+
+
+    @media only screen and (max-width : 767px){
+
+    /* Footer Area End */
+    .footer-top {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .newsletter-title {
+        margin-bottom: 20px;
+        text-align: center;
+        i {
+            font-size: 40px;
+            display: block;
+        }
+        h2 {
+            font-size: 25px;
+            margin-left: auto;
+            margin-left: auto;
+            display: block;
+        }
+    }
+    .newsletter-form {
+        max-width: 100%;
+        .form-control {
+            height: 45px;
+            line-height: 45px;
+            padding: 0 25px;
+        }
+        .default-btn {
+            position: inherit;
+            top: 10px;
+            right: 0;
+            left: 0;
+            line-height: 45px;
+            padding: 0 30px;
+            height: 45px;
+            width: 100%;
+            margin-bottom: 7px;
+        }
+    }
+    .footer-widget {
+        .logo {
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .footer-news {
+            li {
+                .content {
+                    top: 25px;
+                    h4 {
+                        font-size: 12px;
+                    }
+                    span {
+                        font-size: 14px;
+                        max-width: 190px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-widget.pl-5, .footer-widget.px-5 {
+        padding-left: 0 !important;
+    }
+
+    .copy-right-text {
+        p {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    }
+    .copy-right-list {
+        text-align: center;
+        ul {
+            li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+        }
+    }
+    .copy-right-area-two {
+        .copy-right-text {
+            p {
+                margin-top: 10px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    /* Footer Area End */
+
+    }
+    @media only screen and (min-width : 576px) and (max-width : 767px){
+
+    }
+    @media only screen and (min-width : 768px) and (max-width : 991px){
+
+    }
+    @media only screen and (min-width : 992px) and (max-width : 1199px){
+
+    }
+    @media only screen and (min-width : 1550px){
+
+    }
+    @media only screen and (min-width : 1200px){
+
+    }

@@ -1,9 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pilar-ng": {
+    "Sat-ng": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pilar-ng",
+            "outputPath": "dist/Sat-ng",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -91,18 +91,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pilar-ng:build"
+            "browserTarget": "Sat-ng:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pilar-ng:build:production"
+              "browserTarget": "Sat-ng:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pilar-ng:build"
+            "browserTarget": "Sat-ng:build"
           }
         },
         "test": {
@@ -126,11 +126,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "pilar-ng:serve"
+            "devServerTarget": "Sat-ng:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "pilar-ng:serve:production"
+              "devServerTarget": "Sat-ng:serve:production"
             }
           }
         }

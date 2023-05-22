@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ViewsComponent } from './views/views.component';
+import { ViewsComponent } from './ui/views.component';
 
 const routes: Routes = [
     {
@@ -9,7 +9,7 @@ const routes: Routes = [
         children: [
                      {
                         path: "",
-                        loadChildren:() =>import("./views/views.module").then((m) => m.ViewsModule),
+                        loadChildren:() =>import("./ui/views.module").then((m) => m.ViewsModule),
                         data: {},
                     },
                   ]

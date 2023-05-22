@@ -1,10 +1,17 @@
 {
-  "name": "sat-ng",
+  "name": "dev-dragon-test-npm",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ahmed-dev-dragon/p-ng-landing-page-for-sat-serves.git"
   },
   "version": "1.0.0",
+  "description": "test npm ",
+  "main": "./",
+  "module": "./node_modules",
+  "files": [
+     "dist"
+  ],
+
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,7 +20,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",

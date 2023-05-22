@@ -1,5 +1,9 @@
 {
   "name": "sat-ng",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ahmed-dev-dragon/p-ng-landing-page-for-sat-serves"
+  },
   "version": "1.5.0",
   "scripts": {
     "ng": "ng",
